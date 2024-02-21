@@ -3,6 +3,10 @@ name: Validation Check
 on:
   pull_request_review:
     types: [submitted]
+    paths:
+      - 'assets/**'
+      - 'charts/**'
+      - 'packages/**'
 
 jobs:
   check-reaction:
