@@ -5,7 +5,7 @@ This repository contains Helm charts served by Rancher Apps & Marketplace.
 ### Branches
 
 - `dev-2.X` branches contain charts that under active development, to be released in an upcoming Rancher release.
-- `release-v2.X` branches contain charts that have already been developed, tested, and released on an existing Rancher release.
+- `release-v2.X` branches contain charts that have already been developed, tested, and released on an existing Rancher release.test
 
 ### Making Changes
 
