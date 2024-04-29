@@ -2,3 +2,5 @@ rancher-logging:
   - 103.1.0+up4.4.0
 rancher-logging-crd:
   - 103.1.0+up4.4.0
+rancher-istio:
+  - 102.5.0+up1.19.6
