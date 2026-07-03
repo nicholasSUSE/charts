@@ -1,0 +1,25 @@
+annotations:
+  catalog.cattle.io/auto-install: rancher-backup-crd=match
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/display-name: Rancher Backups
+  catalog.cattle.io/namespace: cattle-resources-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/provides-gvr: resources.cattle.io.resourceset/v1
+  catalog.cattle.io/rancher-version: <2.5.99-0
+  catalog.cattle.io/release-name: rancher-backup
+  catalog.cattle.io/scope: management
+  catalog.cattle.io/ui-component: rancher-backup
+apiVersion: v2
+appVersion: 1.2.0
+created: "2024-06-20T21:42:41.879648987-03:00"
+description: Provides ability to back up and restore the Rancher application running
+  on any Kubernetes cluster
+digest: 1bc6a7b948160d5ddf2bad41f9f35720ee05bbb98e21eb8ad0cee734a922fbc6
+icon: https://charts.rancher.io/assets/logos/backup-restore.svg
+keywords:
+- applications
+- infrastructure
+name: rancher-backup
+urls:
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-backup:1.2.0
+version: 1.2.0

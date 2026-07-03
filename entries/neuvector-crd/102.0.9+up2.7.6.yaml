@@ -1,0 +1,20 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-neuvector-system
+  catalog.cattle.io/release-name: neuvector-crd
+apiVersion: v1
+appVersion: 5.3.2
+created: "2024-06-27T20:05:06.85190866-03:00"
+description: Helm chart for NeuVector's CRD services
+digest: 68588f94dd25824a2a93bf3457b08143005727895e7bfb0454b436edd64157dc
+home: https://neuvector.com
+icon: https://avatars2.githubusercontent.com/u/19367275?s=200&v=4
+maintainers:
+- email: support@neuvector.com
+  name: becitsthere
+name: neuvector-crd
+type: application
+urls:
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/neuvector-crd:102.0.9+up2.7.6
+version: 102.0.9+up2.7.6
