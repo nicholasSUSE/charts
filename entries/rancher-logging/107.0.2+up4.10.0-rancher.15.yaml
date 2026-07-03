@@ -30,5 +30,5 @@ sources:
 - https://github.com/kube-logging/helm-charts/tree/main/charts/logging-operator
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-logging:107.0.2+up4.10.0-rancher.15
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-logging:107.0.2_up4.10.0-rancher.15
 version: 107.0.2+up4.10.0-rancher.15

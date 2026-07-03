@@ -16,5 +16,5 @@ maintainers:
 name: neuvector-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/neuvector-crd:106.0.5+up2.8.10
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/neuvector-crd:106.0.5_up2.8.10
 version: 106.0.5+up2.8.10

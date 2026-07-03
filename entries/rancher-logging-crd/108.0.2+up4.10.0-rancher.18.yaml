@@ -10,5 +10,5 @@ digest: df6be1b90c1ec4bf832d49bd4095819d5678a95411ddcf643004c714e6c8efae
 name: rancher-logging-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-logging-crd:108.0.2+up4.10.0-rancher.18
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-logging-crd:108.0.2_up4.10.0-rancher.18
 version: 108.0.2+up4.10.0-rancher.18

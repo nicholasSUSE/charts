@@ -10,5 +10,5 @@ digest: b2f82656422b7911824e1daeb3bdafbeed302778eefd4ade3b02e6fc6005f008
 name: epinio-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/epinio-crd:102.0.3+up1.8.1
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/epinio-crd:102.0.3_up1.8.1
 version: 102.0.3+up1.8.1

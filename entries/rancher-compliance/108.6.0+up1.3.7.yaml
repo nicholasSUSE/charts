@@ -22,5 +22,5 @@ keywords:
 - security
 name: rancher-compliance
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-compliance:108.6.0+up1.3.7
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-compliance:108.6.0_up1.3.7
 version: 108.6.0+up1.3.7

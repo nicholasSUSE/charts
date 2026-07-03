@@ -10,5 +10,5 @@ digest: 91829afc726063e61ae6c854ae5850b7f05605ed6e34cd9524181389269687dc
 name: rancher-compliance-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-compliance-crd:107.8.0+up1.2.7
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-compliance-crd:107.8.0_up1.2.7
 version: 107.8.0+up1.2.7

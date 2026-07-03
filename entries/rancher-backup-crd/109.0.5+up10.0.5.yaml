@@ -11,5 +11,5 @@ digest: 58d85c2dc5bdf525a24da838ce0e3ba086789e5efe7b4d8c9cad6a6f792596c7
 name: rancher-backup-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-backup-crd:109.0.5+up10.0.5
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-backup-crd:109.0.5_up10.0.5
 version: 109.0.5+up10.0.5

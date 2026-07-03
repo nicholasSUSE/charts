@@ -11,5 +11,5 @@ digest: 5b1ce5b9443c9ec70feefe759861227239bf2749f2ca14dbec0d78fb73c28733
 name: longhorn-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/longhorn-crd:104.1.0+up1.6.2
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/longhorn-crd:104.1.0_up1.6.2
 version: 104.1.0+up1.6.2

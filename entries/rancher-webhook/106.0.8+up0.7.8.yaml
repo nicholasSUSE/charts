@@ -15,5 +15,5 @@ description: ValidatingAdmissionWebhook for Rancher types
 digest: a158c146a538be2e9415ff73bc60698850d2a171d3ecb765fecfe2b9a9ac434b
 name: rancher-webhook
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-webhook:106.0.8+up0.7.8
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-webhook:106.0.8_up0.7.8
 version: 106.0.8+up0.7.8

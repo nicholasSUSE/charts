@@ -12,6 +12,7 @@ import (
 	"os"
 	"path/filepath"
 	"slices"
+	"strings"
 
 	"golang.org/x/sync/errgroup"
 	"helm.sh/helm/v3/pkg/action"
@@ -147,7 +148,8 @@ func createEntries(index *repov1.IndexFile, baseDir string, ociRegistry string) 
 			return err
 		}
 		for _, version := range versions {
-			version.URLs = []string{chartURI + ":" + version.Version}
+			tag := strings.ReplaceAll(version.Version, "+", "_")
+			version.URLs = []string{chartURI + ":" + tag}
 			data, err := yaml.Marshal(version)
 			if err != nil {
 				return err

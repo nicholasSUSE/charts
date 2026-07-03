@@ -10,5 +10,5 @@ description: Installs the CRDs for longhorn.
 digest: cb95c1b222a264cb9bc5fb4ca75d8dbf661b03a659760dbe2df48b2e693a60cd
 name: longhorn-crd
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/longhorn-crd:106.3.1+up1.9.2
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/longhorn-crd:106.3.1_up1.9.2
 version: 106.3.1+up1.9.2

@@ -27,5 +27,5 @@ maintainers:
 name: harvester-cloud-provider
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/harvester-cloud-provider:105.0.3+up0.2.9
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/harvester-cloud-provider:105.0.3_up0.2.9
 version: 105.0.3+up0.2.9

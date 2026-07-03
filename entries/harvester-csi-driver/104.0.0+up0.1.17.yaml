@@ -22,5 +22,5 @@ maintainers:
 name: harvester-csi-driver
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/harvester-csi-driver:104.0.0+up0.1.17
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/harvester-csi-driver:104.0.0_up0.1.17
 version: 104.0.0+up0.1.17

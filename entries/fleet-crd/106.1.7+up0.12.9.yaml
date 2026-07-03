@@ -13,5 +13,5 @@ digest: 76344eb43e2aa5de07f8dd9984728590cd203bc197eae63b6e531a633fa0327b
 icon: https://charts.rancher.io/assets/logos/fleet.svg
 name: fleet-crd
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/fleet-crd:106.1.7+up0.12.9
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/fleet-crd:106.1.7_up0.12.9
 version: 106.1.7+up0.12.9

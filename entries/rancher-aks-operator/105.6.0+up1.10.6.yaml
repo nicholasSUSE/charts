@@ -20,5 +20,5 @@ name: rancher-aks-operator
 sources:
 - https://github.com/rancher/aks-operator
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-aks-operator:105.6.0+up1.10.6
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-aks-operator:105.6.0_up1.10.6
 version: 105.6.0+up1.10.6

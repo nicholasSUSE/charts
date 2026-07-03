@@ -12,5 +12,5 @@ description: GKE Operator CustomResourceDefinitions
 digest: 42f0aceee1adfdcfde7ac21a1c5eadcf1a5f9a7331ceec9d17c9b46f5c0bec32
 name: rancher-gke-operator-crd
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-gke-operator-crd:103.4.0+up1.2.4
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-gke-operator-crd:103.4.0_up1.2.4
 version: 103.4.0+up1.2.4

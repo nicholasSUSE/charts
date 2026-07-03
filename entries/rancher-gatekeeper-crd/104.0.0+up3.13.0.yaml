@@ -10,5 +10,5 @@ digest: 0577f6ab24c40eb2625e8e537cdc11c5a271e9609d4364bd8568562f015a7de2
 name: rancher-gatekeeper-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-gatekeeper-crd:104.0.0+up3.13.0
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-gatekeeper-crd:104.0.0_up3.13.0
 version: 104.0.0+up3.13.0

@@ -10,5 +10,5 @@ digest: e3a4f02e15686b6996c978ba39510eac99859feb0c31ea7dcf7cd8788b219989
 name: rancher-cis-benchmark-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-cis-benchmark-crd:105.5.0+up7.6.0
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-cis-benchmark-crd:105.5.0_up7.6.0
 version: 105.5.0+up7.6.0

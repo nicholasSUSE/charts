@@ -20,5 +20,5 @@ digest: b4470424dbade8a13880b6148ad369e4843a577b7bece8863c4103219747f35d
 icon: https://raw.githubusercontent.com/rancher/prometheus-federator/main/assets/logos/prometheus-federator.svg
 name: prometheus-federator
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/prometheus-federator:2.1.0+up0.3.0
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/prometheus-federator:2.1.0_up0.3.0
 version: 2.1.0+up0.3.0

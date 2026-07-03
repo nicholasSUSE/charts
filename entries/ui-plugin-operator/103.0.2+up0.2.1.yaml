@@ -19,5 +19,5 @@ keywords:
 name: ui-plugin-operator
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/ui-plugin-operator:103.0.2+up0.2.1
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/ui-plugin-operator:103.0.2_up0.2.1
 version: 103.0.2+up0.2.1

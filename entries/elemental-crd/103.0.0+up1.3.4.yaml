@@ -11,5 +11,5 @@ digest: 832419128610fa1055f23b5b4791c9e6ed5c6178f249435ea0671359a6327e5e
 name: elemental-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/elemental-crd:103.0.0+up1.3.4
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/elemental-crd:103.0.0_up1.3.4
 version: 103.0.0+up1.3.4

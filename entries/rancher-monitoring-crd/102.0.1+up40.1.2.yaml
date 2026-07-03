@@ -10,5 +10,5 @@ digest: 4c4dcc1df2b4bc1762f8b5e498bc87a54cab73dd0c94481f9ed80b5f9239efe5
 name: rancher-monitoring-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-monitoring-crd:102.0.1+up40.1.2
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-monitoring-crd:102.0.1_up40.1.2
 version: 102.0.1+up40.1.2

@@ -41,5 +41,5 @@ sources:
 - https://github.com/longhorn/longhorn-tests
 - https://github.com/longhorn/backing-image-manager
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/longhorn:101.1.1+up1.3.3
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/longhorn:101.1.1_up1.3.3
 version: 101.1.1+up1.3.3

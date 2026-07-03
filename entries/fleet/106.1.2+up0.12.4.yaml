@@ -18,5 +18,5 @@ digest: 2db731077a5f29d0105ac5b22482805ab0e8eda34b9b11c6a814d7e1034a13b6
 icon: https://charts.rancher.io/assets/logos/fleet.svg
 name: fleet
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/fleet:106.1.2+up0.12.4
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/fleet:106.1.2_up0.12.4
 version: 106.1.2+up0.12.4

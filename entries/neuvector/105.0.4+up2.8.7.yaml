@@ -27,5 +27,5 @@ name: neuvector
 sources:
 - https://github.com/neuvector/neuvector
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/neuvector:105.0.4+up2.8.7
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/neuvector:105.0.4_up2.8.7
 version: 105.0.4+up2.8.7

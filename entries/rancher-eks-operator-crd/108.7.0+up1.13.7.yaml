@@ -12,5 +12,5 @@ description: EKS Operator CustomResourceDefinitions
 digest: ff7624b5bb5ecdcadf7bb68fb446733a444a40d113c94e09867c2d4aa7a8f3b2
 name: rancher-eks-operator-crd
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-eks-operator-crd:108.7.0+up1.13.7
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-eks-operator-crd:108.7.0_up1.13.7
 version: 108.7.0+up1.13.7

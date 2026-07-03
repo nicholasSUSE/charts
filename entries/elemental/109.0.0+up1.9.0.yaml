@@ -20,5 +20,5 @@ digest: 061d03170cb627896ed6cca42fb9f838982741ef7f23a14e6cca6f0bd6343cbc
 icon: file://assets/logos/elemental.svg
 name: elemental
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/elemental:109.0.0+up1.9.0
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/elemental:109.0.0_up1.9.0
 version: 109.0.0+up1.9.0

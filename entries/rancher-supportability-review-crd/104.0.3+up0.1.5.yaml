@@ -10,5 +10,5 @@ digest: 4f6f6d6c00380911ce6a812d7d05e0b25f4cc00d479952a4b3281389f33624b3
 name: rancher-supportability-review-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-supportability-review-crd:104.0.3+up0.1.5
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-supportability-review-crd:104.0.3_up0.1.5
 version: 104.0.3+up0.1.5

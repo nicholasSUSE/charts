@@ -17,5 +17,5 @@ description: Cloud Service Provider Marketplace Adapter for Rancher. Monitors Ra
 digest: 1083d72fd49dc163b990451218f13471721066c22dde96eb480089e0c928c92d
 name: rancher-csp-adapter
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-csp-adapter:109.0.0+up9.0.0
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-csp-adapter:109.0.0_up9.0.0
 version: 109.0.0+up9.0.0

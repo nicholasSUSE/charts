@@ -148,5 +148,5 @@ sources:
 - https://github.com/prometheus-operator/kube-prometheus
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-monitoring:103.2.2+up57.0.3
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-monitoring:103.2.2_up57.0.3
 version: 103.2.2+up57.0.3

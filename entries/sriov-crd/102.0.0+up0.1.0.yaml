@@ -12,5 +12,5 @@ digest: 0209ab03d8438bd28c0da82d1037b1067c05dc6bc7200cdb2ff42b5301c612b8
 name: sriov-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/sriov-crd:102.0.0+up0.1.0
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/sriov-crd:102.0.0_up0.1.0
 version: 102.0.0+up0.1.0

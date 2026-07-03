@@ -10,5 +10,5 @@ digest: 0b8eb83252106f91e8a63157b1f010277a753d83e9e21e343bedd78b50b5fc4c
 name: ui-plugin-operator-crd
 type: application
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/ui-plugin-operator-crd:102.0.1+up0.2.1
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/ui-plugin-operator-crd:102.0.1_up0.2.1
 version: 102.0.1+up0.2.1

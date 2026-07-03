@@ -12,5 +12,5 @@ description: AKS Operator CustomResourceDefinitions
 digest: 4e4f517b16542e65599bad1e8f93a30aed9ca7d49d3c6ac6e4735319856d72ce
 name: rancher-aks-operator-crd
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-aks-operator-crd:109.2.0+up1.14.2
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/rancher-aks-operator-crd:109.2.0_up1.14.2
 version: 109.2.0+up1.14.2

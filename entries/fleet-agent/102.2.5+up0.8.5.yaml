@@ -15,5 +15,5 @@ digest: 1660f4526f588e719ae58459c40222fc0c43f648972b2cbf0c943b6e62a8872b
 icon: https://charts.rancher.io/assets/logos/fleet.svg
 name: fleet-agent
 urls:
-- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/fleet-agent:102.2.5+up0.8.5
+- oci://zot.192.168.5.1.traefik.me:8443/rancher-charts/fleet-agent:102.2.5_up0.8.5
 version: 102.2.5+up0.8.5
