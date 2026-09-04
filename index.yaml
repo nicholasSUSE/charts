@@ -162,7 +162,8 @@ entries:
     maintainers:
     - name: Rancher ORBS Team
     name: rancher-backup
-    urls: null
+    urls:
+    - oci://localhost:5000/rancher-charts/rancher-backup:11.0.0
     version: 11.0.0
   rancher-backup-crd:
   - annotations:
@@ -224,4 +225,4 @@ entries:
     urls:
     - oci://localhost:5000/rancher-charts/rancher-backup-crd:108.0.4_up9.0.4
     version: 108.0.4+up9.0.4
-generated: "2026-09-04T14:37:56.912065288-03:00"
+generated: "2026-09-04T14:40:57.66371428-03:00"
