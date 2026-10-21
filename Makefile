@@ -25,7 +25,10 @@ chart-bump:
 	@./scripts/pull-scripts
 	@./bin/charts-build-scripts chart-bump --package="$(package)" --branch="$(branch)" --override="$(override)" $(if $(multirc),--multirc="$(multirc)")
 
-TARGETS := prepare patch clean clean-cache charts list index unzip zip standardize template regsync check-images check-rc enforce-lifecycle lifecycle-status auto-forward-port icon validate-release-charts compare-index-files
+index:
+	@./auto-index.sh
+
+TARGETS := prepare patch clean clean-cache charts list unzip zip standardize template regsync check-images check-rc enforce-lifecycle lifecycle-status auto-forward-port icon validate-release-charts compare-index-files
 
 
 $(TARGETS):
