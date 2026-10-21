@@ -11,13 +11,12 @@ INDEX="index.yaml"
 
 main() {
 	# helm always writes <dir>/index.yaml; its urls are rewritten below
-	helm repo index "${ASSETS_DIR}"
+	helm repo index "${ASSETS_DIR}" --url "${REGISTRY}"
 	mv -f "${ASSETS_DIR}/${INDEX}" "${INDEX}"
 
-	# <path>/<chart>-<version>.tgz -> <registry>/<chart>:<version>
-	REGISTRY="${REGISTRY}" yq -i \
-		'.entries[][] |= .urls = [strenv(REGISTRY) + "/" + .name + ":" + .version]' \
-		"${INDEX}"
+	# <registry>/<chart>/<chart>-<version>.tgz -> <registry>/<chart>:<version>
+	# sed, not yq: yq re-indents every sequence and the whole file shows in diff
+	sed -i -E "s#(${REGISTRY})/([^/]+)/\2-(.+)\.tgz\$#\1/\2:\3#" "${INDEX}"
 }
 
 main "$@"
