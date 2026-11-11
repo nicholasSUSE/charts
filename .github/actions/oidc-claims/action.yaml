@@ -1,0 +1,12 @@
+name: OIDC claims
+description: Prints the claims of the OIDC token of the job that runs this action.
+runs:
+  using: composite
+  steps:
+    - name: Claims
+      shell: bash
+      env:
+        GH_OWNER: ${{ github.repository_owner }}
+        GH_REPO_NAME: ${{ github.event.repository.name }}
+        GH_REPOSITORY: ${{ github.repository }}
+      run: src/.github/scripts/claims.sh "composite action"
