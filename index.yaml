@@ -1,0 +1,249 @@
+apiVersion: v1
+entries:
+  fleet:
+  - annotations:
+      catalog.cattle.io/auto-install: fleet-crd=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/experimental: "true"
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/provides-gvr: clusters.fleet.cattle.io/v1alpha1
+      catalog.cattle.io/rancher-version: '>= 2.16.0-0 < 2.17.0-0'
+      catalog.cattle.io/release-name: fleet
+      helm.sh/images: |
+        - name: fleet
+          image: rancher/fleet:v0.17.0-rc.4
+        - name: fleet-agent
+          image: rancher/fleet-agent:v0.17.0-rc.4
+    apiVersion: v2
+    appVersion: 0.17.0-rc.4
+    created: "2026-11-13T17:47:24Z"
+    description: Fleet Controller - GitOps at Scale
+    digest: 7c20ba7501766f81dd7aac70e8861f8126c4c6c48759b1121ee7fbc61be46517
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/fleet:111.0.1_up0.17.0-rc.4@sha256:406622777ac01607a849741c6d242f1fd9cbf52a95902fd710094a8ffcc6d7b5
+    version: 111.0.1+up0.17.0-rc.4
+  - annotations:
+      catalog.cattle.io/auto-install: fleet-crd=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/experimental: "true"
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/provides-gvr: clusters.fleet.cattle.io/v1alpha1
+      catalog.cattle.io/rancher-version: '>= 2.16.0-0 < 2.17.0-0'
+      catalog.cattle.io/release-name: fleet
+      helm.sh/images: |
+        - name: fleet
+          image: rancher/fleet:v0.18.0-alpha.3
+        - name: fleet-agent
+          image: rancher/fleet-agent:v0.18.0-alpha.3
+    apiVersion: v2
+    appVersion: 0.18.0-alpha.3
+    created: "2026-11-12T14:33:23Z"
+    description: Fleet Controller - GitOps at Scale
+    digest: 575d8f7d28c1c4ac067f033835bd1dba4488f7fb8a2e1b60c8bde422527d2224
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/fleet:111.0.0_up0.18.0-alpha.3@sha256:2f08b9ab6e436c590ea206cb6c02573fde1f12c60d947344b72e2c26cb152c1e
+    version: 111.0.0+up0.18.0-alpha.3
+  fleet-agent:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.16.0-0 < 2.17.0-0'
+      catalog.cattle.io/release-name: fleet-agent
+      helm.sh/images: |
+        - name: fleet-agent
+          image: rancher/fleet-agent:v0.17.0-rc.4
+    apiVersion: v2
+    appVersion: 0.17.0-rc.4
+    created: "2026-11-13T17:47:28Z"
+    description: Fleet Agent - GitOps at Scale
+    digest: b6044dbb1b7af3cd7cf35aca712c8ac0f6c887b2a1c842ea0bf7120ea68d98ff
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-agent
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/fleet-agent:111.0.1_up0.17.0-rc.4@sha256:86796e29172c7002dd5d08ec50171cc1f0329df4d73e8364c94d924ca474a449
+    version: 111.0.1+up0.17.0-rc.4
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.16.0-0 < 2.17.0-0'
+      catalog.cattle.io/release-name: fleet-agent
+      helm.sh/images: |
+        - name: fleet-agent
+          image: rancher/fleet-agent:v0.18.0-alpha.3
+    apiVersion: v2
+    appVersion: 0.18.0-alpha.3
+    created: "2026-11-12T14:33:27Z"
+    description: Fleet Agent - GitOps at Scale
+    digest: 6b750e8f5a37d85340a1fe449ad4965c4e1c7a9a60f9e5ff7ceb93811bcb8101
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-agent
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/fleet-agent:111.0.0_up0.18.0-alpha.3@sha256:25c780d793236a9f04cda88db90cdfc7b066f3de153752b0d675a78babb42fcf
+    version: 111.0.0+up0.18.0-alpha.3
+  fleet-crd:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/release-name: fleet-crd
+    apiVersion: v2
+    appVersion: 0.17.0-rc.4
+    created: "2026-11-13T17:47:33Z"
+    description: Fleet CustomResourceDefinitions
+    digest: 965dbc8364bbe2cdc19b291917de5ced5cbb41c0916c3bee3503dce0ed284772
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-crd
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/fleet-crd:111.0.1_up0.17.0-rc.4@sha256:9d6fe794b7c9d524f2b4b5276f825b58015a02d6e030a6596d3578b1c4244363
+    version: 111.0.1+up0.17.0-rc.4
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/namespace: cattle-fleet-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/release-name: fleet-crd
+    apiVersion: v2
+    appVersion: 0.18.0-alpha.3
+    created: "2026-11-12T14:33:32Z"
+    description: Fleet CustomResourceDefinitions
+    digest: c4901a53cfb282b50ae9a5a1180ea97ccbdb00440c9d5c2ac8ee23894cc9a425
+    icon: https://charts.rancher.io/assets/logos/fleet.svg
+    name: fleet-crd
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/fleet-crd:111.0.0_up0.18.0-alpha.3@sha256:b2c616094f77e469e553be37cd9545c83609210f59286b39b203b08ddb3b2099
+    version: 111.0.0+up0.18.0-alpha.3
+  rancher-webhook:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/managed: "true"
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.17.0-0 < 2.18.0-0'
+      catalog.cattle.io/release-name: rancher-webhook
+      helm.sh/images: |
+        - name: rancher-webhook
+          image: rancher/rancher-webhook:v0.13.0-rc.9
+    apiVersion: v2
+    appVersion: 0.13.0-rc.9
+    created: "2026-11-13T02:03:48Z"
+    description: ValidatingAdmissionWebhook for Rancher types
+    digest: 3943dfc75fd6a83b250d9f85778315f4528dbbf7540d591226978c11f24d6ec1
+    name: rancher-webhook
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/rancher-webhook:112.0.0_up0.13.0-rc.9@sha256:66ef6ae7423e9f392918df8f2f85cc280404c2696dbdaaf773e8555e289c19e7
+    version: 112.0.0+up0.13.0-rc.9
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/managed: "true"
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.17.0-0 < 2.18.0-0'
+      catalog.cattle.io/release-name: rancher-webhook
+      helm.sh/images: |
+        - name: rancher-webhook
+          image: rancher/rancher-webhook:v0.13.0-rc.8
+    apiVersion: v2
+    appVersion: 0.13.0-rc.8
+    created: "2026-11-13T00:06:36Z"
+    description: ValidatingAdmissionWebhook for Rancher types
+    digest: 94aca86d1c5d4d5252a656a77c73257a7fc58e8033f6fdecef7ee10f1bf8844b
+    name: rancher-webhook
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/rancher-webhook:112.0.0_up0.13.0-rc.8@sha256:dc460789b32740b8545479f4ba8409a68b51a1d840f787ed7cee7c601433913c
+    version: 112.0.0+up0.13.0-rc.8
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/managed: "true"
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.17.0-0 < 2.18.0-0'
+      catalog.cattle.io/release-name: rancher-webhook
+      helm.sh/images: |
+        - name: rancher-webhook
+          image: rancher/rancher-webhook:v0.13.0-rc.7
+    apiVersion: v2
+    appVersion: 0.13.0-rc.7
+    created: "2026-11-11T17:33:45Z"
+    description: ValidatingAdmissionWebhook for Rancher types
+    digest: a4dcad7db0e2f7d98d4cc410e159b0ce45e3579b05cc2cb6b54e919dd9ca995e
+    name: rancher-webhook
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/rancher-webhook:112.0.0_up0.13.0-rc.7@sha256:8404f3b067f91ff55e4d32a0229a56ed4822b4892bce31f360e1da76defa1786
+    version: 112.0.0+up0.13.0-rc.7
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/managed: "true"
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.17.0-0 < 2.18.0-0'
+      catalog.cattle.io/release-name: rancher-webhook
+      helm.sh/images: |
+        - name: rancher-webhook
+          image: rancher/rancher-webhook:v0.13.0-rc.4
+    apiVersion: v2
+    appVersion: 0.13.0-rc.4
+    created: "2026-11-11T14:46:04Z"
+    description: ValidatingAdmissionWebhook for Rancher types
+    digest: a484e08861b8adcd5e69d60bbb35a28a3d2aacb5aafd233e34ded7a9e1e8a89d
+    name: rancher-webhook
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/rancher-webhook:112.0.0_up0.13.0-rc.4@sha256:193234d85d9fc97ddfb48e0d25be7b089082b897d631575443617d8fb23dbd5f
+    version: 112.0.0+up0.13.0-rc.4
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: '>= 1.35.0-0 < 1.38.0-0'
+      catalog.cattle.io/managed: "true"
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.17.0-0 < 2.18.0-0'
+      catalog.cattle.io/release-name: rancher-webhook
+      helm.sh/images: |
+        - name: rancher-webhook
+          image: rancher/rancher-webhook:v0.13.0-rc.3
+    apiVersion: v2
+    appVersion: 0.13.0-rc.3
+    created: "2026-11-11T14:32:13Z"
+    description: ValidatingAdmissionWebhook for Rancher types
+    digest: 5037a1bfa539a5bb3a7e786f17b0130f03b03ac39bfa42d232ba223859831d05
+    name: rancher-webhook
+    urls:
+    - oci://stgregistry.suse.com/rancher/catalog/rancher-webhook:112.0.0_up0.13.0-rc.3@sha256:703e1db3d846ecb90b1843a937bcad24cc96a4347384a36b85936ff349817988
+    version: 112.0.0+up0.13.0-rc.3
+generated: "2026-11-13T17:47:33Z"
