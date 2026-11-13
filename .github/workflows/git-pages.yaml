@@ -1,0 +1,30 @@
+name: Git-Pages
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - gh-pages
+
+jobs:
+  git-pages:
+    name: Validate GitHub Pages index.yaml with OCI URLs
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Wait for GitHub Pages build
+        run: sleep 60
+
+      - name: Check index.yaml is accessible
+        run: |
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" https://nicholassuse.github.io/charts/index.yaml)
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "Failed to fetch index.yaml. HTTP code: $HTTP_CODE"
+            exit 1
+          fi
+          echo "index.yaml accessible (HTTP $HTTP_CODE)"
+
+      - name: Validate OCI URLs in index
+        run: |
+          curl -s https://nicholassuse.github.io/charts/index.yaml | grep -q "oci://stgregistry.suse.com/rancher/catalog/"
+          echo "OCI URLs validated in index.yaml"
