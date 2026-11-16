@@ -1,0 +1,15 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-resources-system
+  catalog.cattle.io/release-name: rancher-backup-crd
+apiVersion: v2
+appVersion: v10.0.10
+created: "2026-09-22T18:26:09.562713936-03:00"
+description: Installs the CRDs for rancher-backup.
+digest: 6e72763c7c9c6d582414ba4c064a1bcd9762ea76c900131d823f4bc4f33fa333
+name: rancher-backup-crd
+type: application
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-backup-crd:109.0.9_up10.0.10@sha256:3c8efab7d16586972106be9f2e511345d4c57422e9233fe3c3b176794961e4c5
+version: 109.0.9+up10.0.10
