@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-monitoring-system
+  catalog.cattle.io/release-name: rancher-monitoring-crd
+apiVersion: v2
+created: "2026-06-30T16:38:24.389212639-03:00"
+description: Installs the CRDs for rancher-monitoring.
+digest: 520ec1d47a8489fbb76f665929b3f2b148b6d8cc3e38fe4b37b382ea16d23036
+name: rancher-monitoring-crd
+type: application
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-monitoring-crd:108.0.6_up77.9.1-rancher.18@sha256:c3c3c4867428349dba687ec5fd904f69810b791fb9b11545eae4bb61e0e7850c
+version: 108.0.6+up77.9.1-rancher.18
