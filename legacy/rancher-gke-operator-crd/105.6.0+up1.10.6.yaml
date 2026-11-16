@@ -1,0 +1,16 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/permits-os: linux,windows
+  catalog.cattle.io/release-name: rancher-gke-operator-crd
+apiVersion: v2
+appVersion: 1.10.6
+created: "2025-07-02T14:25:08.085272004-03:00"
+description: GKE Operator CustomResourceDefinitions
+digest: 9bf9988a331bbb44a8f58518abf20aee615a76eb542d951adc9eacb4eb059fda
+name: rancher-gke-operator-crd
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-gke-operator-crd:105.6.0_up1.10.6@sha256:cb6e1462d6f2d34eeb0e3b538854f411b86b7424dfa8c27d8e4815ae453ffedb
+version: 105.6.0+up1.10.6
