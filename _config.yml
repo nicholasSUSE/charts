@@ -1,0 +1,5 @@
+# Pages serves index.yaml and the logos. The entries and the legacy entries are not
+# published.
+exclude:
+  - entries
+  - legacy
