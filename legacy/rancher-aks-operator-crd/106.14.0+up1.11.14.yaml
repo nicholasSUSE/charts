@@ -1,0 +1,16 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/permits-os: linux,windows
+  catalog.cattle.io/release-name: rancher-aks-operator-crd
+apiVersion: v2
+appVersion: 1.11.14
+created: "2026-09-22T18:11:11.198783131-03:00"
+description: AKS Operator CustomResourceDefinitions
+digest: b537455c7b92e9129715b360a275c005ce39a08584235abd84e5dd48f5658afb
+name: rancher-aks-operator-crd
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-aks-operator-crd:106.14.0_up1.11.14@sha256:c82dd490c9ce0bafc6689b8c7c3e4e3eedb11ed78bce9b8372a3a93d14f9e59e
+version: 106.14.0+up1.11.14
