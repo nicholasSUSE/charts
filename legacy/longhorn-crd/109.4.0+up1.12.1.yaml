@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: longhorn-system
+  catalog.cattle.io/release-name: longhorn-crd
+apiVersion: v1
+appVersion: v1.12.1
+created: "2026-08-31T18:42:25.362719284-03:00"
+description: Installs the CRDs for longhorn.
+digest: 192c0f66efc9e31d6078dbc71085d960b325ad90920a7fa023898289022785b6
+name: longhorn-crd
+urls:
+- oci://zot.nicklab.org/rancher/catalog/longhorn-crd:109.4.0_up1.12.1@sha256:ffe3078c878801438ce35e8dd4a24505137f53261a37c208fe675fa4d5c50e39
+version: 109.4.0+up1.12.1
