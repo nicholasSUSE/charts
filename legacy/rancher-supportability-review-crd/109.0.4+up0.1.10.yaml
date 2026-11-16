@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: sr-operator-system
+  catalog.cattle.io/release-name: rancher-supportability-review-crd
+apiVersion: v1
+created: "2026-10-27T22:06:58.621940544-03:00"
+description: Installs the CRDs for rancher-supportability-review.
+digest: d7265b41ea6e810da24adc2c796cf87d2918b1bc696223cf0a365ebde4e2df04
+name: rancher-supportability-review-crd
+type: application
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-supportability-review-crd:109.0.4_up0.1.10@sha256:06a6c30916eec73f52782acc8c6ae40d7275b08c283b52e6155e05e807c71b9c
+version: 109.0.4+up0.1.10
