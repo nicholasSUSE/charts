@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-logging-system
+  catalog.cattle.io/release-name: rancher-logging-crd
+apiVersion: v1
+created: "2026-08-25T16:27:19.091473933-03:00"
+description: Installs the CRDs for rancher-logging.
+digest: 1aa078ae830a4495ae8e5c853b0c096836829421390dc679330748ed176d09aa
+name: rancher-logging-crd
+type: application
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-logging-crd:109.0.1_up4.10.0-rancher.24@sha256:603e88ecc58a16c3d42e07a44b828e6881f1955c91b6be3421f79f02ace62e1a
+version: 109.0.1+up4.10.0-rancher.24
