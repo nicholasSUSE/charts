@@ -1,0 +1,16 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/permits-os: linux,windows
+  catalog.cattle.io/release-name: rancher-eks-operator-crd
+apiVersion: v2
+appVersion: 1.13.1
+created: "2026-03-20T17:28:18.794616915-03:00"
+description: EKS Operator CustomResourceDefinitions
+digest: 0f9c368cdf2174842027dfcb66463e23ec0aa11cf6302c775b98cda2b9a7bbd0
+name: rancher-eks-operator-crd
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-eks-operator-crd:108.1.0_up1.13.1@sha256:1c4573829725d6a3c0835be60e8c6c47e07d892def6420c10e2ff42c82183c05
+version: 108.1.0+up1.13.1
