@@ -1,0 +1,17 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: cattle-fleet-system
+  catalog.cattle.io/os: linux
+  catalog.cattle.io/permits-os: linux,windows
+  catalog.cattle.io/release-name: fleet-crd
+apiVersion: v2
+appVersion: 0.15.7
+created: "2026-09-22T18:24:05.219609005-03:00"
+description: Fleet CustomResourceDefinitions
+digest: a37f8566f188a131d4b99d0f0cdc6a98e838274aad891ff71e370e6212f1fb0e
+icon: https://charts.rancher.io/assets/logos/fleet.svg
+name: fleet-crd
+urls:
+- oci://zot.nicklab.org/rancher/catalog/fleet-crd:109.0.7_up0.15.7@sha256:9fe4a11451e555fce4baa8a8f5647a7b8318e18d98540d44d2e5078fb275b4a4
+version: 109.0.7+up0.15.7
