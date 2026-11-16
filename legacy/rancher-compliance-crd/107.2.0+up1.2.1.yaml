@@ -1,0 +1,14 @@
+annotations:
+  catalog.cattle.io/certified: rancher
+  catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/namespace: compliance-operator-system
+  catalog.cattle.io/release-name: rancher-compliance-crd
+apiVersion: v1
+created: "2025-10-22T17:16:52.748144719-03:00"
+description: Installs the CRDs for rancher-compliance.
+digest: 6346db8cded3984ed588f51294332009de05dfb83e61206ce3ac1f3b849647a9
+name: rancher-compliance-crd
+type: application
+urls:
+- oci://zot.nicklab.org/rancher/catalog/rancher-compliance-crd:107.2.0_up1.2.1@sha256:2759ac1b4cdac264b43fb5031964c740517e4c68ae362f1cebebc7e26829c8ac
+version: 107.2.0+up1.2.1
